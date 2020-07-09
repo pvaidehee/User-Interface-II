@@ -1,1 +1,49 @@
 /* Add CSS styling here */
+.header nav{
+    margin-left: 3%;
+}
+.header nav a{
+    text-decoration: none;
+}
+.part1{
+    display:flex;
+}
+.part1 div img{
+    border :20px;
+    padding-right:70px;
+    padding-top:20px;
+    padding-bottom:20px;
+    width :500px;
+}
+.part12{
+   text-align:left;
+  font-size: 20px;
+}
+.part12 a{
+    text-decoration: none;
+}
+.part2 div img{
+    width :320px;
+    border:1px solid black;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align:center;
+    font-family: 'Grenze Gotisch', cursive;
+    color:darkcyan;
+}
+.footer{
+    height:120px;
+    border : 1px solid lightgrey;
+    background-color:lightgrey;
+    text-align:center;
+}
+.footer h3{
+    align-content:center;
+}
+.footer button a{
+    text-decoration: none;
+    height:30px;
+}
