@@ -22,8 +22,13 @@
 .part12 a{
     text-decoration: none;
 }
+.part121{
+    border:1px;
+    padding-right: 300px;;
+}
 .part2 div img{
     width :320px;
+    height:320px;
     border:1px solid black;
 }
 .part2{
@@ -46,4 +51,7 @@
 .footer button a{
     text-decoration: none;
     height:30px;
+}
+.footer2 nav a{
+    padding-left:330px;
 }
