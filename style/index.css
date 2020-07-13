@@ -57,6 +57,7 @@
     padding-left:330px;
 }
 /*From here the media coding starts*/
+/*Here is the code for meadia max-width 800px*/
 
 @media(max-width:800px){
     h1{
@@ -71,5 +72,58 @@
     }
     .part1{
         flex-direction:column;
+        align-items:center;
+    }
+    .part1 div img{
+        border: 1px;
+        padding:10% 10% 3% 10%;
+
+    }
+    .part12{
+        border:1px;
+        padding-top:-10px;
+    }
+    .part12 h2{
+        text-align:center;
+    }
+    .part12 button{
+        align-content: space-around;
+        width:15%;
+        margin-left:43%;
+        padding: 1.5% 0;
+    }
+    .part121 p{
+        margin-left:6%;
+    }
+    .footer{
+        margin:2% 4%;
+    }
+    .footer2 nav{
+        width:20%;
+        margin-left:40%;
+    }
+    .footer2 nav a{
+        padding-left:20px;
+        height:30px;
+    }
+}
+
+/*From here is the code for media max-width at 500px*/
+@media(max-width:500px){
+    .part11{
+        margin-left:10px;
+    }
+    .part1 div img {
+        width:450px;
+        padding:6% 6% 3% 4%;
+    }
+    .part12 button{
+        border:1px solid green;
+        width:20%;
+        margin-left:40%;
+    }
+    .footer2 nav{
+        width:60%;
+        margin-left:35%;
     }
 }
